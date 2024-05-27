@@ -6,3 +6,8 @@ body{
 img{
     background-attachment: fixed;
 }
+li.nav-item a.nav-link{
+    color: #1e1e1e;
+
+    
+}
