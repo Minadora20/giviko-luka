@@ -21,6 +21,13 @@ img.mainimg{
     
 
 }
+div.secondimg{
+    padding-left: 70px;
+    margin: 10px;
+    padding-top: 30px;
+ 
+
+}
 
 li.nav-item a.nav-link{
     color: #1e1e1e;
@@ -41,8 +48,21 @@ div.maintext{
 }
 li.nav-item a.nav-link:hover{
     color: #a26028;
+    
 }
 #axalgazrdebi :hover{color: #a26028;
+    background-color: #a26028;
 
+}
+.secondtext{ position:absolute;
+    left: 900px;
+    top: 1300px;
+    
+}
+span.primary{
+    font-size: 35px;
+}
+h2{
+    padding-left: 72px;
 }
 
