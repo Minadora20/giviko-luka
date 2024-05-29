@@ -2,44 +2,47 @@ body{
     margin: 0;
     padding: 0;
 }
-
-.mainimg{
-    width: 100%;
-    background-image:url(https://static.wixstatic.com/media/74f558_66357e0ecfea4c86b2ea0bce6e8a9447~mv2.jpg/v1/fill/w_1359,h_860,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/74f558_66357e0ecfea4c86b2ea0bce6e8a9447~mv2.jpg);
-    
-    background-attachment: fixed;
+div.mainimg{
+    padding-right: 50px;
+    margin: 10px;
+    padding-top: 30px;
+ 
+}
+img.mainimg{
+    background-attachment:fixed;
+    padding-left: 70px;
+   
+    filter: brightness(70%);
+    margin: auto;
+    background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    height: 1029px;
+    background-repeat:no-repeat ;
+
     
-    top: 0;
 
 }
+
 li.nav-item a.nav-link{
     color: #1e1e1e;
+   
 
     
+}
+div.maintext{
+  position: absolute;
+  left: 160px;
+  top:300px;
+  color: #f5f5f5;
+  font-size: 72px;
+
+
+
+
 }
 li.nav-item a.nav-link:hover{
-   color: #A26028 ; 
+    color: #a26028;
 }
-.maintext h1 {
-    font-size: 72px;
-   
-  
-   
-  }
+#axalgazrdebi :hover{color: #a26028;
 
-  .secondimg{
-   background-image: url(https://static.wixstatic.com/media/84770f_59a5515ed0ea48efb3f1a7e3ce3098cc~mv2.jpeg/v1/fill/w_680,h_680,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_59a5515ed0ea48efb3f1a7e3ce3098cc~mv2.jpeg);
-    background-attachment: fixed;
-    
-    background-repeat: no-repeat;
+}
 
-  }
-
-  .conteiner span{
-    display: flex;
-   align-self: flex-end;
-
-  }
