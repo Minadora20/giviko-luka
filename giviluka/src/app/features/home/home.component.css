@@ -1,0 +1,166 @@
+div.mainimg{
+    padding-right: 50px;
+   
+   
+ 
+}
+img.mainimg{
+    background-attachment:fixed;
+    padding-left: 70px;
+    
+    max-width: 1920px;
+
+    width: 100%;
+   
+    filter: brightness(70%);
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat ;
+ 
+   
+ 
+}
+
+    
+
+div.secondimg{
+    padding-left: 70px;
+    margin: 10px;
+    padding-top: 30px;
+    background-attachment: fixed;
+ 
+
+}
+
+li.nav-item a.nav-link{
+    color: #1e1e1e;
+   
+
+    
+}
+div.maintext{
+  position: absolute;
+  left: 160px;
+  top:300px;
+  color: #f5f5f5;
+  font-size: 72px;
+
+
+
+}
+li.nav-item a.nav-link:hover{
+    color: #a26028;
+    
+}
+#axalgazrdebi :hover{color: #a26028;
+    background-color: #a26028;
+
+}
+.secondtext{ position:absolute;
+    left: 900px;
+    top: 1300px;
+    
+}
+span.primary{
+    font-size: 35px;
+}
+h2{
+    padding-left: 72px;
+}
+span.look{
+    padding: 40px;
+    margin: 30px;
+}
+
+.spanel1{
+    
+    font-size: 40px;
+    text-align: center;
+}
+
+.sometext{
+    display: flex;
+    font-size: 22px;
+    color: #a26028;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+
+}
+.someworld{
+    display: flex;
+    margin-top: 15px; ;
+    font-size: 13px;
+    color: #1e1e1e;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+
+
+
+
+
+.spanel{
+ margin-top: 100px;
+font-size: 40px;
+text-align: center;
+}
+
+.servicepictures{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 72px;
+    padding-right: 72px;
+    
+    
+   
+    
+}
+.servicemoments{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    position: relative;
+    font-size: 33px;
+    bottom: 450px;
+    color: #f5f5f5;
+    cursor: pointer;
+    
+}
+.svg1{
+    width: 10px;
+    fill:#1e1e1e ;
+}
+
+.satisfiedcus{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.p{
+    margin-top: 70px;
+    display: flex;
+    text-align:center; 
+    justify-content: space-evenly;
+     font-size:15px;
+   
+    
+}
+
+.textforP{
+    margin-top: 15px;
+    display: flex;
+    text-align:center; 
+    justify-content: space-evenly;
+     font-size: 20px;
+     color: #a26028;
+     
+   
+}
