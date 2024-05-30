@@ -2,21 +2,23 @@ body{
     margin: 0;
     padding: 0;
 }
-div.mainimg{
-    padding-right: 50px;
-    margin: 10px;
-    padding-top: 30px;
- 
-}
-img.mainimg{
+
+.mainimg{
+    
+   width: 100%;
+   height: fit-content;
     background-attachment:fixed;
-    padding-left: 70px;
-   
-    filter: brightness(70%);
-    margin: auto;
-    background-size: cover;
     background-position: center;
-    background-repeat:no-repeat ;
+    background-image: url("https://static.wixstatic.com/media/74f558_66357e0ecfea4c86b2ea0bce6e8a9447~mv2.jpg/v1/fill/w_1359,h_860,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/74f558_66357e0ecfea4c86b2ea0bce6e8a9447~mv2.jpg");
+    filter: brightness(70%);
+    background-repeat: no-repeat;
+    padding: 100px;
+    
+    
+    
+    
+    
+   
 
     
 
@@ -25,6 +27,7 @@ div.secondimg{
     padding-left: 70px;
     margin: 10px;
     padding-top: 30px;
+    background-attachment: fixed;
  
 
 }
@@ -88,7 +91,7 @@ span.look{
 .someworld{
     display: flex;
     margin-top: 15px; ;
-    font-size: 15px;
+    font-size: 13px;
     color: #1e1e1e;
     flex-wrap: wrap;
     text-align: center;
