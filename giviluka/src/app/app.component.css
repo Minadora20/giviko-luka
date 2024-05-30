@@ -70,3 +70,36 @@ span.look{
     margin: 30px;
 }
 
+.spanel1{
+    
+    font-size: 40px;
+    text-align: center;
+}
+
+.sometext{
+    display: flex;
+    font-size: 22px;
+    color: #a26028;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+
+
+
+
+
+
+.spanel{
+ margin-top: 100px;
+font-size: 40px;
+text-align: center;
+}
+
+.servicepictures{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
