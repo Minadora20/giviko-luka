@@ -3,26 +3,30 @@ body{
     padding: 0;
 }
 
-.mainimg{
-    
-   width: 100%;
-   height: fit-content;
-    background-attachment:fixed;
-    position: relative;
-   padding-left: 70px;
-    filter: brightness(70%);
-    background-repeat: no-repeat;
-    padding: 100px;
-    
-    
-    
-    
-    
-   
-
-    
-
+div.mainimg{
+    padding-right: 50px;
+    margin: 10px;
+    padding-top: 30px;
+ 
 }
+img.mainimg{
+    background-attachment:fixed;
+    padding-left: 70px;
+    max-width: 1920px;
+    width: 100%;
+   
+    filter: brightness(70%);
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat ;
+ 
+   
+ 
+}
+
+    
+
 div.secondimg{
     padding-left: 70px;
     margin: 10px;
