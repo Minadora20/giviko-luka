@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
 }
+
 div.mainimg{
     padding-right: 50px;
     margin: 10px;
@@ -11,7 +12,10 @@ div.mainimg{
 img.mainimg{
     background-attachment:fixed;
     padding-left: 70px;
-    max-width: 1430px;
+
+
+    max-width: 1920px;
+
     width: 100%;
    
     filter: brightness(70%);
@@ -19,14 +23,18 @@ img.mainimg{
     background-size: cover;
     background-position: center;
     background-repeat:no-repeat ;
+ 
+   
+ 
+}
 
     
 
-}
 div.secondimg{
     padding-left: 70px;
     margin: 10px;
     padding-top: 30px;
+    background-attachment: fixed;
  
 
 }
@@ -90,7 +98,7 @@ span.look{
 .someworld{
     display: flex;
     margin-top: 15px; ;
-    font-size: 15px;
+    font-size: 13px;
     color: #1e1e1e;
     flex-wrap: wrap;
     text-align: center;
