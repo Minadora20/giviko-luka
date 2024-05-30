@@ -85,6 +85,17 @@ span.look{
     justify-content: space-around;
 
 }
+.someworld{
+    display: flex;
+    margin-top: 15px; ;
+    font-size: 15px;
+    color: #1e1e1e;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+
+
+}
 
 
 
