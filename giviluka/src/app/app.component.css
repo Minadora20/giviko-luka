@@ -146,3 +146,30 @@ text-align: center;
     
 
 }
+
+.satisfiedcus{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.p{
+    margin-top: 150px;
+    display: flex;
+    text-align:center; 
+    justify-content: space-evenly;
+     font-size:15px;
+   
+    
+}
+
+.textforP{
+    margin-top: 15px;
+    display: flex;
+    text-align:center; 
+    justify-content: space-evenly;
+     font-size: 20px;
+     color: #a26028;
+     
+   
+}
