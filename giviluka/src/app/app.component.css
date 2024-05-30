@@ -11,7 +11,8 @@ div.mainimg{
 img.mainimg{
     background-attachment:fixed;
     padding-left: 70px;
-    
+    max-width: 1430px;
+    width: 100%;
    
     filter: brightness(70%);
     margin: auto;
