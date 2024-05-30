@@ -1,1 +1,0 @@
-export * from "./feautures/footer/footer.component"
