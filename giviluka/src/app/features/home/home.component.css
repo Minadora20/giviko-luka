@@ -197,7 +197,7 @@ text-align: center;
   input:valid ~ label {
     top: -20px;
     font-size: 14px;
-    color: #5264ae;
+    color: red;
   }
   
   .bar {
@@ -212,7 +212,7 @@ text-align: center;
     width: 0;
     bottom: 1px;
     position: absolute;
-    background: #5264ae;
+    background: red;
     transition: 0.2s ease all;
     -moz-transition: 0.2s ease all;
     -webkit-transition: 0.2s ease all;
@@ -245,7 +245,7 @@ text-align: center;
   
   @-webkit-keyframes inputHighlighter {
     from {
-      background: #5264ae;
+      background: red;
     }
     to {
       width: 0;
@@ -254,7 +254,7 @@ text-align: center;
   }
   @-moz-keyframes inputHighlighter {
     from {
-      background: #5264ae;
+      background: red;
     }
     to {
       width: 0;
@@ -263,7 +263,7 @@ text-align: center;
   }
   @keyframes inputHighlighter {
     from {
-      background: #5264ae;
+      background: red;
     }
     to {
       width: 0;
@@ -288,4 +288,9 @@ text-align: center;
   div.signin{
     padding:50px;
     
+  }
+
+  .textforimputss{
+   
+    color: #f5f5f5;
   }
