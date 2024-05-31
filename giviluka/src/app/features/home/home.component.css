@@ -280,6 +280,8 @@ text-align: center;
   
   .buttonfor-submit {
     display: flex;
+    border-bottom: #1e1e1e;
+    border-radius: 460 50;
     justify-content: center;
     color: white;
   }
