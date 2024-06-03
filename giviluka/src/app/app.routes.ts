@@ -1,4 +1,5 @@
 import { Routes } from '@angular/router';
+import { Title } from '@angular/platform-browser';
 
 export const routes: Routes = [{
     path: '',
@@ -9,4 +10,8 @@ export const routes: Routes = [{
   } ,{path:'about',
     title:'about',
     loadComponent: () => import ('./features/about/about.component')
-  }]
+  } ,{path:'service',
+  title:'service',
+loadComponent: () => import ('./features/service/service.component')
+
+}];
