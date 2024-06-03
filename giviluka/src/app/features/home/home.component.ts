@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { routes } from '../../app.routes';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -8,5 +10,16 @@ import { Component } from '@angular/core';
   styleUrl: './home.component.css'
 })
 export default class  HomeComponent {
+
+constructor(private router:Router){
+
+}
+  about
+(){  this.router.navigate(['about'])
+
+}
+kitchens(){
+  this.router.navigate(['kitchens'])
+  }
 
 }
