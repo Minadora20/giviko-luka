@@ -11,6 +11,8 @@ import { Router } from '@angular/router';
 })
 export default class  HomeComponent {
 
+
+
 constructor(private router:Router){
 
 }
@@ -20,6 +22,19 @@ constructor(private router:Router){
 }
 kitchens(){
   this.router.navigate(['kitchens'])
+  
+ 
+}
+
+bathroom(){
+  this.router.navigate(['bathroom'])
+}
+  
+  interiors(){
+    this.router.navigate(['interiors'])
+  }
+    
   }
 
-}
+
+
