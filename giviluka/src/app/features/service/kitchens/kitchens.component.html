@@ -1,61 +1,8 @@
- 
-<div class="card w-30">
-    <div class="center">
-      <div class="carousel-wrapper">
-        <!-- abstract radio buttons for slides -->
-        <input id="slide1" type="radio" name="controls" checked="checked" />
-        <input id="slide2" type="radio" name="controls" />
-        <input id="slide3" type="radio" name="controls" />
-        <input id="slide4" type="radio" name="controls" />
-        <input id="slide5" type="radio" name="controls" />
-     
-        <!-- navigation dots -->
-        <label for="slide1" class="nav-dot"></label>
-        <label for="slide2" class="nav-dot"></label>
-        <label for="slide3" class="nav-dot"></label>
-        <label for="slide4" class="nav-dot"></label>
-        <label for="slide5" class="nav-dot"></label>
-     
-        <!-- arrows -->
-        <label for="slide1" class="left-arrow"> < </label>
-        <label for="slide2" class="left-arrow"> < </label>
-        <label for="slide3" class="left-arrow"> < </label>
-        <label for="slide4" class="left-arrow"> < </label>
-        <label for="slide5" class="left-arrow"> < </label>
-     
-        <label for="slide1" class="right-arrow"> > </label>
-        <label for="slide2" class="right-arrow"> > </label>
-        <label for="slide3" class="right-arrow"> > </label>
-        <label for="slide4" class="right-arrow"> > </label>
-        <label for="slide5" class="right-arrow"> > </label>
-     
-        <div class="carousel">
-          <ul>
-            <li>
-              <img src="https://th.bing.com/th/id/R.3d23eff60305bba4535df209f1123ee5?rik=fMoUJMdDNkGRBA&pid=ImgRaw&r=0" />
-            </li>
-            <li>
-              <img src="https://edecortrends.com/wp-content/uploads/2020/02/Bedroom-Design-Trends-2020-Modern-approach-to-organizing-a-cozy-space-8.jpg" alt="">
-            </li>
-            <li>
-              <img src="https://www.home-designing.com/wp-content/uploads/2018/09/all-black-bedroom.jpg" />
-            </li>
-            <li>
-              <img src="https://www.architectureartdesigns.com/wp-content/uploads/2018/09/5-2.jpg">
-            </li>
-            <li>
-              <img src="https://th.bing.com/th/id/R.2228799a0485ba0d0eeb87082a38919f?rik=E%2fHCMpIrNcugvA&riu=http%3a%2f%2fcdn.home-designing.com%2fwp-content%2fuploads%2f2016%2f10%2fhanging-lights-black-and-white-bedroom-accessories.jpg&ehk=pFqsDvYqUz6lUr4iVDg3RcIM72KwIwX59wtpXxeOuc8%3d&risl=&pid=ImgRaw&r=0" alt="">
-            </li>
-          </ul>
-        </div>
-      </div>
-     
-    <div class="card-body">
-        <br>
-        <br>
-      <h5 class="card-title">Black Bedroom Type</h5>
-      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <h3>Price: $14599</h3>
-      <a href="#" class="btn btn-primary">Add to card</a>
+<div class="container">
+  <div class="row">
+    <div class="col 3" ngFor="let elem of cards">
+       <app-cards
+       [cardImg1]="elem.cardImg1">{{cardImg1}}</app-cards>
     </div>
-    </div>
+  </div>
+</div>
