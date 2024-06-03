@@ -1,3 +1,4 @@
+import { Title } from '@angular/platform-browser';
 import { Routes } from '@angular/router';
 
 export const routes: Routes = [{
@@ -10,9 +11,9 @@ export const routes: Routes = [{
     title:'about',
     loadComponent: () => import ('./features/about/about.component')
   },{path :'service',
-    title : 'service',
-    loadComponent: () => ('./features/service/service.component')
-      
+  title :'service',
+  loadComponent: () => ('./features/service/service.component')
     
+  
 
-   }];
+ }];
