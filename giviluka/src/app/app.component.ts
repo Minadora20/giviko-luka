@@ -11,6 +11,6 @@ import { FooterComponent } from './features/footer/footer.component';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
-export default class AppComponent {
+export  class AppComponent {
   title = 'giviluka';
 }
