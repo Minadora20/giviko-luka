@@ -8,6 +8,9 @@ import ServiceComponent from './features/service/service.component';
 import { WorkComponent } from './features/work/work.component';
 import { ContactComponent } from './features/contact/contact.component';
 import { kitchensRoutes } from './features/service/kitchens/kitchens.routes';
+import { BathroomComponent } from './features/service/bathroom/bathroom.component';
+import { bathroomRoutes } from './features/service/bathroom/bathroom.routes';
+import { interiorsroutes } from './features/service/interiors/interiors.routes';
 
 export const routes: Routes = [
   { 
@@ -46,5 +49,8 @@ component:AboutComponent
   path:'contact',
   component:ContactComponent
 },
-   ...kitchensRoutes
+   ...kitchensRoutes,
+   ...bathroomRoutes,
+   ...interiorsroutes
+   
 ]
