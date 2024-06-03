@@ -11,13 +11,8 @@ export const routes: Routes = [{
     title:'about',
     loadComponent: () => import ('./features/about/about.component')
 
-  }
-  ,{path :'service',
-  title :'service',
-  loadComponent: () =>  import ('./features/service/service.component')
-
-  },
+}];
     
   
 
- ];
+ 
