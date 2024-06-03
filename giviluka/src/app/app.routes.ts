@@ -9,9 +9,8 @@ export const routes: Routes = [{
   } ,{path:'about',
     title:'about',
     loadComponent: () => import ('./features/about/about.component')
-  },
-   {path :'service',
-    title: 'service',
+  },{path :'service',
+    title : 'service',
     loadComponent: () => ('./features/service/service.component')
       
     
