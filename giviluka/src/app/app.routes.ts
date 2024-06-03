@@ -1,5 +1,6 @@
 import { Title } from '@angular/platform-browser';
 import { Routes } from '@angular/router';
+import { Title } from '@angular/platform-browser';
 
 export const routes: Routes = [{
     path: '',
