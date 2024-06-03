@@ -130,14 +130,15 @@
    <a routerLink="kitchens" (click)="kitchens()">Kitchens </a>
   <a routerLink="Bathroom" (click)="bathroom()">Bathroom</a>
   <a routerLink="interiors" (click)="interiors()">interiors</a>
-</div>
+</div> 
 <div
   class="seeallservice"
   style="display: flex; justify-content: center; margin: auto"
 >
   <a
+  (click)="services()"
     class="btn btn-secondary"
-    href=""
+    routerlink="services"
     style="
       height: 40px;
       width: 130px;

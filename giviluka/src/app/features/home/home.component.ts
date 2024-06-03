@@ -13,6 +13,9 @@ export default class  HomeComponent {
 
 
 
+
+
+
 constructor(private router:Router){
 
 }
@@ -20,6 +23,11 @@ constructor(private router:Router){
 (){  this.router.navigate(['about'])
 
 }
+services
+(){  this.router.navigate(['services'])
+
+}
+
 kitchens(){
   this.router.navigate(['kitchens'])
   
@@ -35,6 +43,14 @@ bathroom(){
   }
     
   }
+
+ 
+ 
+
+
+
+
+
 
 
 
