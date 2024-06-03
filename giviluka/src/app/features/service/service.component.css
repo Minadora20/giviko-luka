@@ -1,0 +1,25 @@
+.spanforservice{
+    display: flex;
+   text-align: center;
+   justify-content: center;
+   font-size: 40px;
+   color: #1E1E1E;
+   
+}
+.pforservice{
+    display: flex;
+   text-align: center;
+   justify-content: center;
+   font-size: 15px;
+   color: #1E1E1E;
+   margin-top: 30px;
+}
+
+.picturesforservice{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+      align-items: center;
+     margin: auto 50px;
+     width: 100%;
+     
+}
