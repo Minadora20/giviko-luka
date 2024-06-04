@@ -41,6 +41,7 @@ html, body {
  
 .carousel-wrapper {
   @extend .flex;
+
   position: relative;
   max-width: 600px;
   margin: 50px;
