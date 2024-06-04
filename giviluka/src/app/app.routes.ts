@@ -11,6 +11,7 @@ import { kitchensRoutes } from './features/service/kitchens/kitchens.routes';
 import { BathroomComponent } from './features/service/bathroom/bathroom.component';
 import { bathroomRoutes } from './features/service/bathroom/bathroom.routes';
 import { interiorsroutes } from './features/service/interiors/interiors.routes';
+import { NotfoundComponent } from './features/notfound/notfound.component';
 
 export const routes: Routes = [
   { 
@@ -51,6 +52,21 @@ component:AboutComponent
 },
    ...kitchensRoutes,
    ...bathroomRoutes,
-   ...interiorsroutes
+   ...interiorsroutes,
    
+
+
+
+
+
+{
+path:'**',
+component:NotfoundComponent
+
+}
+
+
+
+
+
 ]
