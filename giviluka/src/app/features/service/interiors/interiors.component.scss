@@ -210,8 +210,19 @@ html, body {
 }
 a{ color: white;
   background-color: black;
+  margin-top: 10px;
   &:hover{
     background-color: #a26028;
     color: black;
   }
+}
+img{
+  width: 600px;
+height: 600px;}
+h5{
+  margin-top: 30px;
+
+}
+p{
+  margin-top: 20px;
 }
