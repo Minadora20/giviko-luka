@@ -208,3 +208,13 @@ html, body {
   background-color: transparent;
   border-radius: 12px;
 }
+a{ color: white;
+  background-color: black;
+  &:hover{
+    background-color: #a26028;
+    color: black;
+  }
+}
+img{
+  width: 600px;
+height: 600px;}
