@@ -31,6 +31,7 @@
     width: 300px;
     border: none;
     border-bottom: 1px solid #757575;
+    color: white;
   }
   .group input:focus {
     outline: none;

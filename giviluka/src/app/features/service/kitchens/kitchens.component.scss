@@ -35,6 +35,7 @@ html, body {
   @extend .flex;
   margin-top: -50px;
   margin-left: -50px;
+
  
 }
  
@@ -43,7 +44,8 @@ html, body {
   @extend .flex;
   position: relative;
   max-width: 600px;
-  margin: 50px;
+  margin: auto 50px;
+  
  
   input {
     display: none;
@@ -56,6 +58,7 @@ html, body {
   @extend .line;
   overflow: hidden;
   border-radius: 15px;
+  
  
   ul {
     @extend .center;
@@ -217,6 +220,10 @@ a{ color: white;
     color: black;
    
   }
+
+}
+.carousel{
+
 }
 img{
   width: 600px;
