@@ -115,7 +115,13 @@
    display:block;
    object-fit: cover;
    background-size: contain;
+   width: 355px;
 
+}
+.hard3{
+   display: flex;
+  
+   margin: 50px;
 }
 .max-diva div.hard2{ 
    width: 50%;
