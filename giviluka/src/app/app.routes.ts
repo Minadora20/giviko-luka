@@ -14,6 +14,10 @@ import { interiorsroutes } from './features/service/interiors/interiors.routes';
 import { NotfoundComponent } from './features/notfound/notfound.component';
 
 export const routes: Routes = [
+  {
+    path: '',
+    component:HomeComponent
+  },
   { 
 path:'about',
 component:AboutComponent
