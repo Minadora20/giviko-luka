@@ -23,8 +23,9 @@ div{
     height: 100%;
     top: 0;
     left: 0;
-    max-height: 50px;
+    max-height: 120px;
     margin: 0px;
+    text-align: center;
   
 }
    
