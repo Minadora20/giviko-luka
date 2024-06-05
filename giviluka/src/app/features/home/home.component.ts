@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { routes } from '../../app.routes';
 import { Router } from '@angular/router';
-
+import { FormComponent } from '../../shared/ui/form/form.component';
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [],
+  imports: [FormComponent,],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
@@ -41,6 +41,8 @@ bathroom(){
   interiors(){
     this.router.navigate(['interiors'])
   }
+
+  
     
   }
 

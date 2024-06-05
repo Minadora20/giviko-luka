@@ -1,0 +1,110 @@
+<div
+  class="signin"
+  style="
+    display: flex;
+    justify-content: space-between;
+    background-color: #1e1e1e;
+    margin-top: 30px;
+  "
+>
+  <div class="textforimputss" style="margin-left: 170px">
+    <span style="font-size: 40px; margin-bottom: 50px">
+      Let's Discuss <br />
+      Your Next Project</span
+    >
+    <p style="font-size: 15px; margin-top: 30px">
+      Fill out the form, or call us to <br />
+      set up a free in-home consultation.
+    </p>
+    <p style="font-size: 15px; margin-top: 20px">
+      Service Areas: <br />
+      San Francisco, Santa Clara, Alameda, San Mateo
+    </p>
+    <p style="font-size: 15px; margin-top: 20px">
+      500 Terry Francine Street San Francisco, CA 94158
+    </p>
+    <p style="font-size: 15px; margin-bottom: 25px">infomysite.com</p>
+    <p style="font-size: 15px; margin-bottom: 20px">123-456-7890</p>
+  </div>
+
+  <div>
+    <form action="https://api.everrest.educata.dev/echo/html" method="post" >
+      <div class="divdiva">
+        <div class="right">
+          <div class="group">
+            <input type="text" required name="firstname"/>
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label for="firstname">First Name</label>
+          </div>
+
+          <div class="group">
+            <input type="text" required form="Email" />
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label for="Email">Email</label>
+          </div>
+
+          <div class="group">
+            <input type="text" required name="address"/>
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label  for="address">address</label>
+          </div>
+        </div>
+        <div class="left">
+          <div class="group">
+            <input type="text" required name="lastname"/>
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label for="lastname"> Last Name</label>
+          </div>
+
+          <div class="group">
+            <input type="text" required name="Phone" />
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label for="Phone">Phone</label>
+          </div>
+
+          <div class="group">
+            <input type="text" required name="subject"/>
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label for="subject">subject</label>
+          </div>
+
+          <div class="group">
+            <input type="text" required name="typeyourmassagehere"/>
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label for="typeyourmassagehere">type your massage here...</label>
+          </div>
+        </div>
+      </div>
+      <div
+        style="display: flex; align-items: center; justify-content: flex-end"
+      >
+      
+        <button
+          class="btn btn-secondary"
+          style="
+            display: flex;
+            align-items: center;
+            width: 675px;
+            height: 50px;
+            justify-content: center;
+            background-color: white;
+            color: darkgray;
+            border-radius: 2px;
+            border-color: darkgray;
+            font-size: 22px;
+          "
+          type="submit"
+        >
+          Submit
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
