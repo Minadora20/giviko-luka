@@ -88,7 +88,7 @@ html, body {
   position: absolute;
   cursor: pointer;
  
-  margin-left: -$dot-size / 2;
+
   bottom: -$dot-size * 1.5;
   width: $dot-size;
   height: $dot-size;
@@ -109,11 +109,9 @@ html, body {
 }
  
 
-@for $n from 1 through $nb-slides {
+ @for $n from 1 through $nb-slides {
   
-  .nav-dot[for=slide#{$n}] {
-    left: 50% + ((($n - 1) - (($nb-slides - 1)/ 2)) * 5%);
-  }
+
  
   #slide#{$n}:checked {
     
@@ -140,7 +138,7 @@ html, body {
   top: 50%;
   z-index: 1;
   opacity: .7;
-  margin-top: -$arrow-size / 2;
+ 
   height: $arrow-size;
   font-size: $arrow-size;
   transition: .2s;
