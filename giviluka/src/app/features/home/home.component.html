@@ -7,7 +7,7 @@
     />
   </div> -->
 <section class="firs-section">
-  <div class="maintext" style="margin-top: 40px">
+  <div class="maintext" style="margin-top: 40px" >
     <h1>
       Exceptional Home
       <br />
@@ -15,15 +15,16 @@
       <br />
       Renovations
     </h1>
-    <a
+    <a (click)="Freeestimate()"
       id="axalgazrdebi"
-      href=""
+      routerLink="contact"
       class="btn btn-primary"
       style="
         height: 50px;
         width: 200px;
         background-color: #f1f1f1;
         color: #1e1e1e;
+        box-sizing: border-box;
       "
       >Get free estimate</a
     >
@@ -56,28 +57,23 @@
   class="conteiner"
   style="
     display: flex;
-
-    margin-top: 200px;
+    justify-content: space-around;
+    margin-top: 75px;
   "
 >
-<<<<<<< Updated upstream
-  <div class="secondimg"></div>
-  <div class="secondtext">
-=======
-  <div class="second-img">
-    
+  <div class="secondimg">
+
   </div>
-  <div class="secondtext" style="margin-top: 100px">
->>>>>>> Stashed changes
+  <div class="secondtext">
     <span class="primary">
       <b>
-        The Leading Bay Area
-        <br />
+        The Leading Bay Area 
+                
         Remodeling Company</b
       >
     </span>
     <p class="look">
-      I'm a paragraph. Click here to add your own text and edit me. <br />
+      I'm a paragraph. Click here to add your own text and edit me. <br>
       It’s easy. Just click “Edit Text” or double click me to add your <br />
       own content and make changes to the font.
     </p>
@@ -171,7 +167,7 @@
   <a
     (click)="services()"
     class="btn btn-secondary"
-    routerlink="services"
+    routerlink="service"
     style="
       height: 60px;
       width: 130px;

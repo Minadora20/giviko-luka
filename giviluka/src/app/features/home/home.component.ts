@@ -10,6 +10,9 @@ import { FormComponent } from '../../shared/ui/form/form.component';
   styleUrl: './home.component.css'
 })
 export default class  HomeComponent {
+Freeestimate() {
+throw new Error('Method not implemented.');
+}
 
 
 
@@ -24,7 +27,7 @@ constructor(private router:Router){
 
 }
 services
-(){  this.router.navigate(['services'])
+(){  this.router.navigate(['service'])
 
 }
 
@@ -41,10 +44,11 @@ bathroom(){
   interiors(){
     this.router.navigate(['interiors'])
   }
-  seeServices(){
-    this.router.navigate(['service'])
-  }
 
+  contact(){
+    this.router.navigate(['contact'])
+  }
+  
   
     
   }
