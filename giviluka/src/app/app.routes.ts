@@ -12,6 +12,7 @@ import { BathroomComponent } from './features/service/bathroom/bathroom.componen
 import { bathroomRoutes } from './features/service/bathroom/bathroom.routes';
 import { interiorsroutes } from './features/service/interiors/interiors.routes';
 import { NotfoundComponent } from './features/notfound/notfound.component';
+import { CardComponent } from './features/card/card.component';
 
 export const routes: Routes = [
   {
@@ -26,15 +27,7 @@ component:AboutComponent
 
 },
 
-{
-  path:'home',
-  component:HomeComponent
-},
 
-{
-  path:'footer',
-  component:FooterComponent
-},
 
 {
   path:'header',
@@ -54,6 +47,10 @@ component:AboutComponent
   path:'contact',
   component:ContactComponent
 },
+{
+  path: 'card',
+  component:CardComponent
+},
    ...kitchensRoutes,
    ...bathroomRoutes,
    ...interiorsroutes,
@@ -67,7 +64,8 @@ component:AboutComponent
 path:'**',
 component:NotfoundComponent
 
-}
+},
+
 
 
 

@@ -11,4 +11,10 @@ import { Router, RouterModule } from '@angular/router';
   styleUrl: './kitchens.component.scss'
 })
 export class KitchensComponent {
+
+
+  constructor(private router: Router){}
+  addedToCard(){
+    this.router.navigate(['card'])
+  }
 }
