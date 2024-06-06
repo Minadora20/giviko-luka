@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { Router, RouterLink, RouterModule } from '@angular/router';
+import { ContactComponent } from '../contact/contact.component';
 
 
 @Component({
   selector: 'app-about',
   standalone: true,
-  imports: [RouterModule,RouterLink],
+  imports: [ContactComponent,  RouterModule,RouterLink],
   templateUrl: './about.component.html',
   styleUrl: './about.component.css'
 })
