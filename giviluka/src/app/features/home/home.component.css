@@ -49,6 +49,7 @@ li.nav-item a.nav-link{
 .secondimg{
   background-attachment: fixed; background-repeat: no-repeat; height: 700px; width:100%; 
   background-image: url('https://static.wixstatic.com/media/84770f_59a5515ed0ea48efb3f1a7e3ce3098cc~mv2.jpeg/v1/fill/w_640,h_596,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_59a5515ed0ea48efb3f1a7e3ce3098cc~mv2.jpeg');
+ background-size: auto;
 }
 li.nav-item a.nav-link:hover{
     color: #a26028;
