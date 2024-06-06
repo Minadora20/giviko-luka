@@ -121,16 +121,20 @@ text-align: center;
     
 }
 .servicemoments{
-    margin-top: 100px;
+    margin-top: 70px;
     display: flex;
     justify-content: space-around;
     text-align: center;
     position: relative;
-    font-size: 33px;
-    bottom: 450px;
+    font-size: 28px;
+    bottom: 400px;
     color: #f5f5f5;
     cursor: pointer;
     
+}
+
+.servicemoments:hover{
+  color: #1e1e1e;
 }
 .svg1{
     width: 10px;
