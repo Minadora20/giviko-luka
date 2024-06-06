@@ -1,8 +1,8 @@
-import { Title } from '@angular/platform-browser';
+
 import { Routes } from '@angular/router';
 import AboutComponent from './features/about/about.component';
 import HomeComponent from './features/home/home.component';
-import { FooterComponent } from './features/footer/footer.component';
+
 import { HeaderComponent } from './features/header/header.component';
 import ServiceComponent from './features/service/service.component';
 import { WorkComponent } from './features/work/work.component';
