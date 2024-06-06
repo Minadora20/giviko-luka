@@ -9,14 +9,7 @@
 
     
 
-div.secondimg{
-    
-    margin: 10px;
 
-  
- 
-
-}
 .firs-section{ max-width: 1920px;   height: 650px;  background-attachment: fixed; background-repeat: no-repeat;
   background-image: url('https://static.wixstatic.com/media/74f558_66357e0ecfea4c86b2ea0bce6e8a9447~mv2.jpg/v1/fill/w_1359,h_860,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/74f558_66357e0ecfea4c86b2ea0bce6e8a9447~mv2.jpg');
   background-size:cover;   }
@@ -27,6 +20,7 @@ li.nav-item a.nav-link{
 
     
 }
+
 
 
 
