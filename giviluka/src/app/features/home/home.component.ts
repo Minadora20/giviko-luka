@@ -10,9 +10,10 @@ import { FormComponent } from '../../shared/ui/form/form.component';
   styleUrl: './home.component.css'
 })
 export default class  HomeComponent {
-Freeestimate() {
-throw new Error('Method not implemented.');
-}
+Freeestimate: any;
+// Freeestimate() {
+// throw new Error('Method not implemented.');
+// }
 
 
 
