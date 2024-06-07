@@ -19,19 +19,21 @@
 .picturesforservice{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-   
-    
+   font-size: 22px;
+    text-align: center;
     width: 85%;
     margin:  auto;
     align-items: center;
     gap: 20px
     ;
     margin-top: 80px;
-    
-    
-    
-  
-     
+    cursor: pointer;
+       
+}
+
+.picturesforservice p{
+   font-size: 15px;
+   margin-top: 20px;
 }
 img{
     cursor: pointer;
@@ -44,35 +46,9 @@ img{
   
  
  }
- .textforservice{ display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    
-    
-    width: 85%;
-    margin: 10px auto;
-    text-align: center;
-    gap: 40px
-    ;
-    margin-top: 80px;
-    
-    
-    ;
-
- }
- .textforservice p{
-    margin-top: 40px;
-    font-size: 14px;
-    
-
- }
- .textforservice{
-    margin-top: 100px;
-    margin-bottom: 150px;
- }
- .textforservice span{
-    margin-top: 30px;
-    font-size: 24px;
- }
+ 
+ 
+ 
  img:hover{filter: brightness(60%);
  }
  .last-span{
@@ -103,3 +79,22 @@ img{
  }
 
     
+.fistpicturesforservice{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+  font-size: 22px;
+   
+   width: 85%;
+   margin:  auto;
+   align-items: center;
+   gap: 20px
+   ;
+   margin-top: 80px;
+   text-align: center;
+   cursor: pointer;
+}
+
+.fistpicturesforservice p{
+   font-size: 15px;
+   margin-top: 20px;
+}
