@@ -174,3 +174,9 @@
   }
   .buttonfor-submit:hover{
     color: #a26028;}
+
+    @media screen and(max-width:430px) {
+      form{
+      width: 430px !important;
+      }
+    }

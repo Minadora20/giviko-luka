@@ -349,7 +349,56 @@ text-align: center;
     color: #ffffff !important;
     filter: brightness(100%);
   }
+ @media screen and (max-width: 430px) {
+  .firs-section {
+    width: 930px ;
+   
+    
+
+  }
+ .conteiner{
+  width: 930px;
+ }
+ .secondtext{
+  padding: 20px;
+ }
+ .spanel1{
+  width: 930px;
  
+ }
+ .sometext{
+  width: 930px;
+ }
+ .spanel{
+  width: 920px;
+ }
+ .servicepictures{
+   width: 1000px;
+
+  
+ }
+ .servicemoments{
+  width: 1000px;
+ }
+ .satisfiedcus{
+  width: 930px;
+ }
+ .grid-box{
+  width: 930px;
+ }
+
+
+
+ 
+  /* .conteiner{
+    width: 932px;
+    
+    
+  } */
+
+ 
+
+ }
         
       
   

@@ -32,7 +32,16 @@ div{
    
   
 }
-   
+   @media screen and (max-width: 430px) {
+    .conteiner{
+        width: 1030px !important;
+       
+
+    }
+    .nav-item1{
+        display: none;
+    }
+   }
 
     
 
