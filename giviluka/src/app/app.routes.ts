@@ -8,11 +8,13 @@ import ServiceComponent from './features/service/service.component';
 import { WorkComponent } from './features/work/work.component';
 import { ContactComponent } from './features/contact/contact.component';
 import { kitchensRoutes } from './features/service/kitchens/kitchens.routes';
-import { BathroomComponent } from './features/service/bathroom/bathroom.component';
 import { bathroomRoutes } from './features/service/bathroom/bathroom.routes';
 import { interiorsroutes } from './features/service/interiors/interiors.routes';
 import { NotfoundComponent } from './features/notfound/notfound.component';
 import { CardComponent } from './features/card/card.component';
+import { sunrooms } from './features/service/sunrooms/sunrooms.routes';
+import { exteriors } from './features/service/exteriors/exteriors.routes';
+import { additions } from './features/service/additions/additions.routes';
 
 export const routes: Routes = [
   {
@@ -54,9 +56,9 @@ component:AboutComponent
    ...kitchensRoutes,
    ...bathroomRoutes,
    ...interiorsroutes,
-   
-
-
+   ...exteriors,
+   ...additions,
+   ...sunrooms,
 
 
 

@@ -19,8 +19,11 @@
 
 .firs-section{ height: 700px;  background-attachment: fixed; background-repeat: no-repeat;
   background-image: url('https://static.wixstatic.com/media/74f558_66357e0ecfea4c86b2ea0bce6e8a9447~mv2.jpg/v1/fill/w_1359,h_860,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/74f558_66357e0ecfea4c86b2ea0bce6e8a9447~mv2.jpg');
-  background-size:cover;  margin-left: 50px; margin-right: 50px; }
+  background-size:cover;  margin-left: 50px; margin-right: 50px; 
+  filter: brightness(78%);
 
+}
+  
 li.nav-item a.nav-link{
     color: #1e1e1e;
    
@@ -51,6 +54,7 @@ li.nav-item a.nav-link{
   background-attachment: fixed; background-repeat: no-repeat; height: 700px; width:100%; 
   background-image: url('https://static.wixstatic.com/media/84770f_59a5515ed0ea48efb3f1a7e3ce3098cc~mv2.jpeg/v1/fill/w_640,h_596,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_59a5515ed0ea48efb3f1a7e3ce3098cc~mv2.jpeg');
  background-size: contain; margin-left: 50px;
+
 }
 li.nav-item a.nav-link:hover{
     color: #a26028;
@@ -335,6 +339,15 @@ text-align: center;
   .buttonfor-submit:hover{
     color: #a26028;
 
+  }
+  .btn {
+   margin-left: 50px;
+  }
+  .firs-section h1{
+    margin-left: 40px;
+    font-size: 80px;
+    color: #ffffff !important;
+    filter: brightness(100%);
   }
  
         

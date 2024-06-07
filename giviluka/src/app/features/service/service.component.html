@@ -2,22 +2,22 @@
 <div class="pforservice">Let us help you make your dreams a reality.</div>
 
 <div class="fistpicturesforservice">
-  <img
+  <img (click)="clickPhoto()"
     src="https://static.wixstatic.com/media/84770f_d8d01f48d794443c8237018af974c192~mv2.jpg/v1/fit/w_480,h_360,q_90/84770f_d8d01f48d794443c8237018af974c192~mv2.webp"
     alt=""
   />
-  <img
+  <img (click)="clickBathroom()"
     src="https://static.wixstatic.com/media/efa0f8259ee7477e92be257c19f8b3b9.jpg/v1/fit/w_480,h_360,q_90/efa0f8259ee7477e92be257c19f8b3b9.webp"
     alt=""
   />
-  <img
+  <img (click)="clickInteriors()"
     src="https://static.wixstatic.com/media/84770f_cd17fb21ef2e4ace992e927516c40e00~mv2.jpeg/v1/fit/w_480,h_360,q_90/84770f_cd17fb21ef2e4ace992e927516c40e00~mv2.webp"
     alt=""
   />
 
 
   <div>
-    <a routerLink="kitchens" (click)="kitchens()">Kitchens </a>
+    <a>Kitchens </a>
     <p>
       Describe your image here. Use catchy text to tell <br />
       behind the photo.<br />
@@ -26,7 +26,7 @@
     </p>
   </div>
   <div>
-    <a routerLink="Bathroom" (click)="bathroom()">Bathroom</a>
+    <a >Bathroom</a>
     <p>
       Describe your image here. Use catchy text to tell people the story<br />
        behind the photo.<br />
@@ -34,7 +34,7 @@
     </p>
   </div>
   <div>
-    <a routerLink="interiors" (click)="interiors()">interiors</a>
+    <a >interiors</a> 
     <p>
       Describe your image here. Use catchy text to tell people the story<br />
        behind the photo.<br />
@@ -43,15 +43,15 @@
   </div>
  </div>
 <div class="picturesforservice">
-  <img
+  <img  (click)="clickAddintions()"
     src="https://static.wixstatic.com/media/84770f_4b843746603e44618105ce2ee5a56abc~mv2.jpeg/v1/fill/w_426,h_320,q_90/84770f_4b843746603e44618105ce2ee5a56abc~mv2.webp"
     alt=""
   />
-  <img
+  <img (click)="clickExteriors()"
     src="https://static.wixstatic.com/media/cd5b640880ce4ca3a1d3ba165d8ee82d.jpg/v1/fill/w_427,h_320,q_90/cd5b640880ce4ca3a1d3ba165d8ee82d.webp"
     alt=""
   />
-  <img
+  <img (click)="clickSunrums()"
     src="https://static.wixstatic.com/media/dcb18a51041d442ebf011092278a2ccb.jpg/v1/fill/w_426,h_320,q_90/dcb18a51041d442ebf011092278a2ccb.webp"
     alt=""
   />
@@ -88,6 +88,6 @@
       >Create your dream home. <br />
       Tell us about your project today.</span
     ><br />
-    <button class="btn-primary">Get free estimate</button>
+    <button class="btn-primary" (click)="clickEstimate()">Get free estimate</button>
   </div>
 </div>
