@@ -31,10 +31,7 @@ component:AboutComponent
 
 
 
-{
-  path:'header',
-  component:HeaderComponent
-},
+
 
 {
   path:'service',
